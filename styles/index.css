@@ -25,7 +25,6 @@ nav ul {
 }
 .btn {
   padding: 10px 20px;
-  /* background-color: #007bff; */
   background-color: burlywood;
   color: black;
   border: 0.5px solid black;
@@ -155,7 +154,6 @@ main {
   border-radius: 10px;
 }
 .skills-container :hover {
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   background-color: #f0e6d2;
   transform: scale(1.05);
   transition:
@@ -163,7 +161,6 @@ main {
     transform 0.3s ease;
 }
 .skill-description {
-  /* font-size: 0.9em; */
   color: #555;
   margin-top: 10px;
   line-height: 1.4;
@@ -218,7 +215,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px; */
   padding: 50px 150px;
   background-color: rgb(250, 238, 219);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -227,7 +223,7 @@ main {
   width: 80%;
   text-align: left;
 }
-.form-column{
+.form-column {
   width: 40%;
   text-align: center;
   display: flex;
@@ -240,10 +236,10 @@ main {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  /* margin-top: 20px; */
   align-items: center;
 }
-#footer input[type="text"], #footer input[type="email"] {
+#footer input[type="text"],
+#footer input[type="email"] {
   height: 25px;
   padding: 10px 20px;
   border: 1px solid #ccc;
